@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+
+public class App {
+
+    Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        System.out.println("Digite 1 para calcular IMC e 2 para calcular Metabolismo Basal:");
+        int opcao = scanner.nextInt();
+
+        System.out.println(opcao);
+    }
+}
